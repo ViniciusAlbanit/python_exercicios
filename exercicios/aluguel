@@ -1,0 +1,12 @@
+divida=int(input())
+valor=int(input())
+qtd=1
+divida_total = 0
+while valor >= 0:
+    pagamento = divida - valor
+    divida_total += pagamento
+    divida_menor = divida - pagamento
+    print(f'pagamento: {qtd}')
+    print(f'antes = {divida}')
+    print(f'depois = {pagamento}')
+    qtd +=1

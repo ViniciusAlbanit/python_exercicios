@@ -1,0 +1,2 @@
+letra=int(input())
+

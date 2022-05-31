@@ -1,14 +1,14 @@
 a=int(input())
 b=int(input())
 qtd=0
-d=1
 for i in range(a, b+1):
-    while d <= i:
-        if i%d==0:
+    if i > 1:
+        for j in range(2,i):
+            if i%j == 0:
+                break
+        else:
             qtd +=1
-        d +=1
-        if qtd%2 == 0:
-            print(i)
-
-print(f'primos {qtd}')
+            print(f'{i}')
+print(f'Primos: {qtd}')
+            
     

@@ -7,7 +7,7 @@ for _ in range(5):
 
 print('-' * 30)
 
-for item in D.items():
-    if item[1] > 50.0:
-        print('Produto: ', item[0])
+for nome, preco in D.items():
+    if preco > 50.0:
+        print('Produto: ', nome)
     

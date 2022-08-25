@@ -1,6 +1,6 @@
 Alunos = {}
 
-for _ in range(2):
+for _ in range(5):
     ra = int(input('RA? '))
     nota1 = float(input('Nota1? '))
     nota2 = float(input('Nota2? '))
